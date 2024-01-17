@@ -2,4 +2,6 @@
 
 This project implements a moderately complex neural network, which has the ability to classify handwritten 
 digits from the MNIST dataset with a high level of accuracy. The [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
-data set
+data set contains 60,000 handwritten digits from 0-9 presented as 28x28 pixel imaegs. This implementation 
+mainly uses a recitified linear unit (ReLU) function and an argmax function as nonlinearities, and uses a 
+number of other linear algebra operatoins in order to make accurate predictions.
